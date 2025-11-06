@@ -1,0 +1,12 @@
+# Ignore the credentials file
+config.properties
+
+# Ignore compiled Java code
+bin/
+out/
+*.class
+
+# Ignore IDE settings
+.settings/
+.classpath
+.project
