@@ -64,14 +64,14 @@ Make sure you have the following installed:
 
 ---
 
-## 2. Clone the Repository
+### 2. Clone the Repository
 ```bash
 git clone https://github.com/your-username/student-management-system.git
 cd student-management-system
 ```
 
 ---
-## 3. Database Setup
+### 3. Database Setup
   1. Open MySQL Workbench and connect to your local database server.
   2. Create a new database named studentmanagement:
      ```bash
@@ -151,7 +151,7 @@ cd student-management-system
       ```
 ---
 
-  ## 4. Create config.properties File
+  ### 4. Create config.properties File
   In the root folder of the project, create a file named config.properties and add your database credentials:
   ```bash
        db.url=jdbc:mysql:///studentmanagement
@@ -161,7 +161,7 @@ cd student-management-system
 
 ---
 
-  ## 5. Configure Java Project
+  ### 5. Configure Java Project
   1. Open the project in your IDE.
   2. Add the following JAR files (found in /lib) to your Build Path or Classpath:
        mysql-connector-j-8.3.0.jar
@@ -170,7 +170,7 @@ cd student-management-system
 
 ---
 
-  ## 6. Run the Application
+  ### 6. Run the Application
   Run the Splash.java file to start the application.
   To log in as Admin:
   ```bash
@@ -184,7 +184,7 @@ cd student-management-system
 
 ---
 
-  ## 7. 📸 Preview
+  ## 📸 Preview
   <img width="1470" height="956" alt="Screenshot 2025-11-06 at 5 52 23 PM" src="https://github.com/user-attachments/assets/4e36a2b2-274e-4859-90e6-6fb538528b81" />
   <img width="1470" height="956" alt="Screenshot 2025-11-06 at 5 53 24 PM" src="https://github.com/user-attachments/assets/3b05906e-5ea1-4f90-bba1-14fe73dd618f" />
   <img width="1470" height="956" alt="Screenshot 2025-11-06 at 5 55 23 PM" src="https://github.com/user-attachments/assets/efe95b98-1ebc-4625-bead-26e3d5910fdb" />
