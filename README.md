@@ -187,9 +187,9 @@ cd student-management-system
   ## 📸 Preview
   <img width="1470" height="956" alt="Screenshot 2025-11-06 at 5 52 23 PM" src="https://github.com/user-attachments/assets/4e36a2b2-274e-4859-90e6-6fb538528b81" />
   <img width="1470" height="956" alt="Screenshot 2025-11-06 at 5 53 24 PM" src="https://github.com/user-attachments/assets/3b05906e-5ea1-4f90-bba1-14fe73dd618f" />
-  <img width="1470" height="956" alt="Screenshot 2025-11-06 at 5 55 23 PM" src="https://github.com/user-attachments/assets/efe95b98-1ebc-4625-bead-26e3d5910fdb" />
+   <img width="1470" height="956" alt="Screenshot 2025-11-06 at 5 53 31 PM" src="https://github.com/user-attachments/assets/06501831-41d3-4895-b2d0-fc0d5e161f63" />
   <img width="1468" height="954" alt="Screenshot 2025-11-06 at 5 55 12 PM" src="https://github.com/user-attachments/assets/1df97624-1222-4955-abaf-49a9eb611230" />
-  <img width="1470" height="956" alt="Screenshot 2025-11-06 at 5 53 31 PM" src="https://github.com/user-attachments/assets/06501831-41d3-4895-b2d0-fc0d5e161f63" />
+  <img width="1470" height="956" alt="Screenshot 2025-11-06 at 5 55 23 PM" src="https://github.com/user-attachments/assets/efe95b98-1ebc-4625-bead-26e3d5910fdb" />
 
       
     
