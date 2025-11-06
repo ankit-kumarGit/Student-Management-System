@@ -68,6 +68,89 @@ Make sure you have the following installed:
 ```bash
 git clone https://github.com/your-username/student-management-system.git
 cd student-management-system
+```
 
 ---
-### 3. DataBase
+### 3. Database Setup
+  1. Open MySQL Workbench and connect to your local database server.
+  2. Create a new database named studentmanagement:
+     ```bash
+     CREATE DATABASE studentmanagement;
+     USE studentmanagement;
+     ```
+  3. Run the following SQL scripts to create all required tables:
+     
+      ```bash
+        -- 1. Admins Table
+          CREATE TABLE login(
+              username VARCHAR(30) NOT NULL PRIMARY KEY,
+              password VARCHAR(60)
+          );
+      
+        -- 2. Students Table
+        CREATE TABLE student (
+            studentID INT NOT NULL AUTO_INCREMENT PRIMARY KEY,
+            name VARCHAR(100) NOT NULL,
+            fatherName VARCHAR(100),
+            dob VARCHAR(30),
+            address VARCHAR(255),
+            phone VARCHAR(20),
+            email VARCHAR(100),
+            m10 VARCHAR(10),
+            m12 VARCHAR(10),
+            aadhar VARCHAR(15) UNIQUE,
+            course VARCHAR(50),
+            department VARCHAR(50)
+        );
+        ALTER TABLE student AUTO_INCREMENT = 1000;
+        
+        -- 3. Leave Requests
+        CREATE TABLE student_leave (
+            leaveID INT NOT NULL AUTO_INCREMENT PRIMARY KEY,
+            studentID INT NOT NULL,
+            from_date VARCHAR(50),
+            to_date VARCHAR(50),
+            status VARCHAR(50) DEFAULT 'Pending',
+            FOREIGN KEY (studentID) REFERENCES student(studentID) ON DELETE CASCADE
+        );
+        
+        -- 4. Course Fee Structure
+        CREATE TABLE course_fees (
+            course_name VARCHAR(50) NOT NULL PRIMARY KEY,
+            total_fee INT
+        );
+        
+        INSERT INTO course_fees (course_name, total_fee) VALUES
+        ('B.Tech', 120000), ('BBA', 80000), ('BCA', 70000),
+        ('B.Sc', 60000), ('M.Sc', 90000), ('MBA', 150000), ('MCA', 110000);
+        
+        -- 5. Fee Payments
+        CREATE TABLE student_fees (
+            feeID INT NOT NULL AUTO_INCREMENT PRIMARY KEY,
+            studentID INT NOT NULL,
+            course VARCHAR(50),
+            semester VARCHAR(50),
+            total_amount VARCHAR(20),
+            paid_amount VARCHAR(20),
+            payment_date VARCHAR(50),
+            FOREIGN KEY (studentID) REFERENCES student(studentID) ON DELETE CASCADE
+        );
+        
+        -- 6. Marks Table
+        CREATE TABLE student_marks (
+            markID INT NOT NULL AUTO_INCREMENT PRIMARY KEY,
+            studentID INT NOT NULL,
+            semester VARCHAR(20) NOT NULL,
+            subject1_name VARCHAR(50), subject1_marks VARCHAR(10),
+            subject2_name VARCHAR(50), subject2_marks VARCHAR(10),
+            subject3_name VARCHAR(50), subject3_marks VARCHAR(10),
+            subject4_name VARCHAR(50), subject4_marks VARCHAR(10),
+            subject5_name VARCHAR(50), subject5_marks VARCHAR(10),
+            FOREIGN KEY (studentID) REFERENCES student(studentID) ON DELETE CASCADE
+        );
+      ```
+      
+    
+
+    
+
