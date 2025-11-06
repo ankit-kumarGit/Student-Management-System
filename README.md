@@ -64,14 +64,14 @@ Make sure you have the following installed:
 
 ---
 
-### 2. Clone the Repository
+## 2. Clone the Repository
 ```bash
 git clone https://github.com/your-username/student-management-system.git
 cd student-management-system
 ```
 
 ---
-### 3. Database Setup
+## 3. Database Setup
   1. Open MySQL Workbench and connect to your local database server.
   2. Create a new database named studentmanagement:
      ```bash
@@ -151,45 +151,45 @@ cd student-management-system
       ```
 ---
 
-  ###4. Create config.properties File
-     In the root folder of the project, create a file named config.properties and add your database credentials:
-     ```bash
+  ## 4. Create config.properties File
+  In the root folder of the project, create a file named config.properties and add your database credentials:
+  ```bash
        db.url=jdbc:mysql:///studentmanagement
        db.user=root
        db.pass=YOUR_PASSWORD
-     ```
+  ```
 
 ---
 
-  ###5. Configure Java Project
-     1. Open the project in your IDE.
-     2. Add the following JAR files (found in /lib) to your Build Path or Classpath:
-          mysql-connector-j-8.3.0.jar
-          jcalendar-1.4.jar
-          rs2xml.jar
+  ## 5. Configure Java Project
+  1. Open the project in your IDE.
+  2. Add the following JAR files (found in /lib) to your Build Path or Classpath:
+       mysql-connector-j-8.3.0.jar
+       jcalendar-1.4.jar
+       rs2xml.jar
 
 ---
 
-  ###6. Run the Application
-     Run the Splash.java file to start the application.
-     To log in as Admin:
-     ```bash
-       INSERT INTO login VALUES ('admin', '1234');
-     ```
-     To log in as Student:
-        First, add a student using the Admin portal.
-        Then log in using:
-        Student ID: (e.g., 1000)
-        Aadhar Number: The one stored in the database.
+  ## 6. Run the Application
+  Run the Splash.java file to start the application.
+  To log in as Admin:
+  ```bash
+    INSERT INTO login VALUES ('admin', '1234');
+  ```
+  To log in as Student:
+    First, add a student using the Admin portal.
+    Then log in using:
+    Student ID: (e.g., 1000)
+    Aadhar Number: The one stored in the database.
 
 ---
 
-  ###7. 📸 Preview
-    <img width="1470" height="956" alt="Screenshot 2025-11-06 at 5 52 23 PM" src="https://github.com/user-attachments/assets/4e36a2b2-274e-4859-90e6-6fb538528b81" />
-    <img width="1470" height="956" alt="Screenshot 2025-11-06 at 5 53 24 PM" src="https://github.com/user-attachments/assets/3b05906e-5ea1-4f90-bba1-14fe73dd618f" />
-    <img width="1470" height="956" alt="Screenshot 2025-11-06 at 5 55 23 PM" src="https://github.com/user-attachments/assets/efe95b98-1ebc-4625-bead-26e3d5910fdb" />
-    <img width="1468" height="954" alt="Screenshot 2025-11-06 at 5 55 12 PM" src="https://github.com/user-attachments/assets/1df97624-1222-4955-abaf-49a9eb611230" />
-    <img width="1470" height="956" alt="Screenshot 2025-11-06 at 5 53 31 PM" src="https://github.com/user-attachments/assets/06501831-41d3-4895-b2d0-fc0d5e161f63" />
+  ## 7. 📸 Preview
+  <img width="1470" height="956" alt="Screenshot 2025-11-06 at 5 52 23 PM" src="https://github.com/user-attachments/assets/4e36a2b2-274e-4859-90e6-6fb538528b81" />
+  <img width="1470" height="956" alt="Screenshot 2025-11-06 at 5 53 24 PM" src="https://github.com/user-attachments/assets/3b05906e-5ea1-4f90-bba1-14fe73dd618f" />
+  <img width="1470" height="956" alt="Screenshot 2025-11-06 at 5 55 23 PM" src="https://github.com/user-attachments/assets/efe95b98-1ebc-4625-bead-26e3d5910fdb" />
+  <img width="1468" height="954" alt="Screenshot 2025-11-06 at 5 55 12 PM" src="https://github.com/user-attachments/assets/1df97624-1222-4955-abaf-49a9eb611230" />
+  <img width="1470" height="956" alt="Screenshot 2025-11-06 at 5 53 31 PM" src="https://github.com/user-attachments/assets/06501831-41d3-4895-b2d0-fc0d5e161f63" />
 
       
     
