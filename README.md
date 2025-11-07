@@ -1,10 +1,10 @@
-# 🎓 Student Management System
+# Student Management System
 
 A comprehensive **two-role desktop application** for managing university student data, built with **Java Swing** and **MySQL**.
 
 ---
 
-## 📖 Description
+## Description
 
 This project is a complete management system for a university or college. It provides a secure, role-based login for both **Admins** (faculty, staff) and **Students**.
 
@@ -15,9 +15,9 @@ This application is built entirely in **Java Swing** for the frontend and uses *
 
 ---
 
-## ✨ Features
+## Features
 
-### 👨‍💼 Admin Portal
+### Admin Portal
 - **Student Management:** Add, view, update, and delete student records.  
 - **Fee Management:**
   - Set and update the fee structure for different courses.
@@ -26,7 +26,7 @@ This application is built entirely in **Java Swing** for the frontend and uses *
 - **Marks Entry:** Enter semester-wise marks for 5 subjects for any student.
 - **View Results:** Look up the examination results for any student.
 
-### 🧑‍🎓 Student Portal
+### Student Portal
 - **Secure Login:** Students log in using their unique Student ID and Aadhar number.  
 - **Personalized Dashboard:** The dashboard greets the student by name.  
 - **Profile Management:** Students can view and update their personal details (like phone or address).  
@@ -38,7 +38,7 @@ This application is built entirely in **Java Swing** for the frontend and uses *
 
 ---
 
-## 🛠️ Tech Stack & Libraries
+## Tech Stack & Libraries
 
 | Category | Technology |
 |-----------|-------------|
@@ -54,7 +54,7 @@ This application is built entirely in **Java Swing** for the frontend and uses *
 
 ---
 
-## 🚀 How to Run This Project
+## How to Run This Project
 
 ### 1. Prerequisites
 Make sure you have the following installed:
@@ -184,7 +184,7 @@ cd student-management-system
 
 ---
 
-  ## 📸 Preview
+  ## Preview
   <img width="1470" height="956" alt="Screenshot 2025-11-06 at 5 52 23 PM" src="https://github.com/user-attachments/assets/4e36a2b2-274e-4859-90e6-6fb538528b81" />
   <img width="1470" height="956" alt="Screenshot 2025-11-06 at 5 53 24 PM" src="https://github.com/user-attachments/assets/3b05906e-5ea1-4f90-bba1-14fe73dd618f" />
    <img width="1470" height="956" alt="Screenshot 2025-11-06 at 5 53 31 PM" src="https://github.com/user-attachments/assets/06501831-41d3-4895-b2d0-fc0d5e161f63" />
